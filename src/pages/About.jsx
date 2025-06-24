@@ -25,13 +25,14 @@ const About = () => {
 
           {/* Left: Photo with glowing border */}
           <div className="flex justify-center">
-            <div className="rounded-3xl p-1 bg-gradient-to-tr from-teal-400 via-blue-500 to-purple-600 shadow-lg">
-              <img
-                src="/john-photo.jpg"
-                alt="John Portrait"
-                className="rounded-3xl object-cover w-140 h-140"
-              />
-            </div>
+            <div className="rounded-3xl p-1 bg-gradient-to-tr from-teal-400 via-blue-500 to-purple-600 shadow-lg w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
+  <img
+    src="/john-photo.jpg"
+    alt="John Portrait"
+    className="rounded-3xl object-cover w-full h-auto"
+  />
+</div>
+
           </div>
 
           {/* Right: Text & Skills */}
